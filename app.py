@@ -337,7 +337,7 @@ def update_crop_name(click, stored_inputs):
                Output("hum", "value"),
                Output("ph", "value"),
                Output("rain", "value")], 
-               Input('submit_button', 'n_clicks')
+               Input('submit_button', 'n_clicks'))
 
 def reset_inputs(click):
     trigger = [p['prop_id'] for p in dash.callback_context.triggered][0]
@@ -349,6 +349,3 @@ def reset_inputs(click):
 # Run the app
 if __name__ == '__main__':
     app.run_server(debug=False)
-
-from google.colab import drive
-drive.mount('/content/drive')
