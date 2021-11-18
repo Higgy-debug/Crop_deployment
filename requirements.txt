@@ -3,8 +3,6 @@ dash-core-components==2.0.0
 dash-html-components==2.0.0 
 numpy==1.20.3 
 scikit-learn==0.23.2 
-gunicorn==20.1.0
+gunicorn==19.9.0
 plotly == 5.3.1
 pandas == 1.2.3
-streamlit
-Gunicorn
